@@ -1,7 +1,7 @@
 import cv2
 
 
-def check_nodata_image(path, threshold=1):
+def check_nodata_image(path, threshold=4):
     """
     Given an image path, load the image, convert it to grayscale,
     and check if there is very little difference among the pixels
